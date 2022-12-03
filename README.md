@@ -16,5 +16,5 @@ https://youtu.be/yeAbvyMj_us
 The 4 steps sequencer:
 we use 4/4 time signature. 
 ![10fc630b4f2c8406bac2706b8bfcd4b](https://user-images.githubusercontent.com/113209201/205418094-1c88b3c4-5eb0-494a-baac-6569413cd4b1.jpg)
-The drums are assigned with different color, and each button on y axis represents a quarter of a period.
+The drums are assigned with different color, and each button on y axis represents a quarter of a period. You can produce different combination of drums by pressing down those drum button and create drum beats.
 ![bd59270a8f012a40c5f49dafbe0900b](https://user-images.githubusercontent.com/113209201/205418163-4cc14d23-2ab0-4c8f-b9df-3c60070a3c02.jpg)
