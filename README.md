@@ -70,7 +70,7 @@ The code for the code for 4-step drumer mode is in second half of [code.py](http
 
 # trouble shooting:
 
-1. the original code we used have the audioio module which didn't implement on qtpy2040, so we use audiopwmio instead and it has a lower resolution of audio out. In the next step, we will use a I2S drived audio AMP to drive the speaker. The new board MAX98357A has its own I2S module to play digital music file. The new design is shown below:
+1. the original code we used have the audioio module which didn't implement on qtpy2040, so we use audiopwmio instead and it has a lower resolution of audio out. In the next step, we will use a I2S drived audio AMP to drive the speaker. The new board MAX98357A has its own I2S module to play digital music file with higher resolution, then we can add more instrument file for lauchpad music playing mode. The new design is shown below:
 
 ![37ef09f08b88d881d7e9ab135455026](https://user-images.githubusercontent.com/114200453/205553995-0a5854b5-1a4b-4630-9eff-6a9f49ceb76e.jpg)
 
@@ -92,7 +92,7 @@ The drums are assigned with different color, and each button on y axis represent
 # In progress
 ## LCD on Pico4ML display:
 
-we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. The "hello-world" code for LCD enable is shown here. 
+we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. The "hello-world" code for LCD enable is shown [here](https://github.com/MaxMa6150/finalproject.demo/blob/main/hello_LCD.c). 
 
 ![gswto-8gi1d](https://user-images.githubusercontent.com/113209201/205536461-e9dffa7d-6352-4bbb-873e-25df8729c929.gif)
 
@@ -100,7 +100,9 @@ Later, we will use the LCD display to record the score of Whack a Mole and displ
 
 ## Pico4ML and PY2040 connection:
 
-Pico4ML with LCD display will be connected with QT PY 2040 with UART with Tx/RX port. The design diagram is shown below:
+Inspired by anothering group in demo day, we find out that Pico4ML with LCD display will be connected with QT PY 2040 with UART with Tx/RX port. The design diagram is shown below:
 
 ![a33de4dd40d9f26efe16ebe6f541f0e](https://user-images.githubusercontent.com/114200453/205554246-17c9fd91-0dd5-495f-bbae-505ebc2ae730.jpg)
+
+We can use uart with/without pio. The code we will potentially edit is shown [here](https://github.com/MaxMa6150/finalproject.demo/tree/main/References%20(Uart%20connection)).
 
