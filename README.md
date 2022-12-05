@@ -1,4 +1,18 @@
-# finalproject.demo
+# Final Project Demo
+
+## Components:
+QT PY 2040:
+![80ab10b70a9447a0f1a1582951cff5e](https://user-images.githubusercontent.com/114200453/205554661-9bcd5967-a685-4f00-b26a-81e221a2b419.jpg)
+Neotrellis keypad
+![7488a3e7cad00aaf71475441a50a5d3](https://user-images.githubusercontent.com/114200453/205554711-53b2792c-b613-4fd8-928a-2f4bef98ae39.jpg)
+Pico4ML:
+![e67e6e920a570e3ee0892871c5ad916](https://user-images.githubusercontent.com/114200453/205554769-cc1fe12c-257b-42be-95f1-6ad6bd800a8f.jpg)
+Stemma Speaker:
+![2c44309be171846018c9e0021a1df9c](https://user-images.githubusercontent.com/114200453/205554787-44aea21a-ab14-4ae4-9037-837f4ea5dcaf.jpg)
+
+### The components we will use:
+MAX98357A I2S board:
+![de3e8d731a78b61cdf41b02fe5280e3](https://user-images.githubusercontent.com/114200453/205554886-be96f45e-865e-47d1-92a9-9d0fca34395f.png)
 
 # the Whack a Mole:
 
