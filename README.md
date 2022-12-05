@@ -104,5 +104,5 @@ Inspired by anothering group in demo day, we find out that Pico4ML with LCD disp
 
 ![a33de4dd40d9f26efe16ebe6f541f0e](https://user-images.githubusercontent.com/114200453/205554246-17c9fd91-0dd5-495f-bbae-505ebc2ae730.jpg)
 
-We can use uart with/without pio. The code we will potentially edit is shown [here].
+We can use uart with/without pio. The code we will potentially edit is shown [here](https://github.com/MaxMa6150/finalproject.demo/tree/main/References%20(Uart%20connection)).
 
