@@ -92,7 +92,7 @@ The drums are assigned with different color, and each button on y axis represent
 # In progress
 ## LCD on Pico4ML display:
 
-we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. The "hello-world" code for LCD enable is shown here. 
+we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. The "hello-world" code for LCD enable is shown [here](https://github.com/MaxMa6150/finalproject.demo/blob/main/hello_LCD.c). 
 
 ![gswto-8gi1d](https://user-images.githubusercontent.com/113209201/205536461-e9dffa7d-6352-4bbb-873e-25df8729c929.gif)
 
@@ -103,4 +103,6 @@ Later, we will use the LCD display to record the score of Whack a Mole and displ
 Pico4ML with LCD display will be connected with QT PY 2040 with UART with Tx/RX port. The design diagram is shown below:
 
 ![a33de4dd40d9f26efe16ebe6f541f0e](https://user-images.githubusercontent.com/114200453/205554246-17c9fd91-0dd5-495f-bbae-505ebc2ae730.jpg)
+
+We can use Uart with/without pio. The code we will potentially edit is shown [here].
 
