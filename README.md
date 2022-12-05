@@ -2,8 +2,6 @@
 
 # the Whack a Mole:
 
-https://youtu.be/9epRLCVayiY
-
 # code
 
 The code for the code for whack-a-mole mode is in first half of [code.py](https://github.com/MaxMa6150/finalproject.demo/blob/main/code.py).
@@ -26,6 +24,8 @@ We will use PIO in pico4ml to rp2040.
 
 # demo1
 
+https://youtu.be/9epRLCVayiY
+
 The hole was randomly generated:
 ![0e44561f16b1917239642e189afe396](https://user-images.githubusercontent.com/113209201/205417980-ccd6b806-9c1c-4ca9-b883-0b86a4d445ff.jpg)
 
@@ -40,7 +40,6 @@ after you got below 0 score, game over!
 ![b1dd96557909350e81a502d35c14e64](https://user-images.githubusercontent.com/113209201/205418063-43d84f5d-1f88-475b-adac-9487aaf1e8e9.jpg)
 
 # the 4-steps Drumer 
-https://youtu.be/yeAbvyMj_us
 
 # code
 
@@ -63,6 +62,8 @@ The code for the code for 4-step drumer mode is in second half of [code.py](http
 
 
 # demo2
+
+https://youtu.be/yeAbvyMj_us
 
 The 4 steps sequencer:
 
