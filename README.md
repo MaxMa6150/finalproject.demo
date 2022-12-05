@@ -8,13 +8,22 @@ https://youtu.be/9epRLCVayiY
 
 The code for the code for whack-a-mole mode is in first half of [code.py](https://github.com/MaxMa6150/finalproject.demo/blob/main/code.py).
 
+# design
+
+![636b7ca723a340c71f5bbcdf99d054b](https://user-images.githubusercontent.com/114200453/205553588-4998bc56-a30c-4892-9ede-2b20ec399142.jpg)
+
+
 # troubleshooting
+
 We use the  [neotrellis.simpletest.py](https://github.com/adafruit/Adafruit_CircuitPython_NeoTrellis/blob/main/examples/neotrellis_simpletest.py) 
 Since the cable is not available, we solder the cable with copper pins. 
 ![1551d4fc2dba9cf7454fcc54bca023e](https://user-images.githubusercontent.com/113209201/205519974-c958b217-2fb5-4a26-ac36-9b393b230299.jpg)
-# circuit diagram
+
+# System diagram
+
 ![4952cf835d45d4de3d077f0bec4ef9a](https://user-images.githubusercontent.com/113209201/205527555-4c39911b-fb37-4d23-89e1-d4f304852c9b.jpg)
 We will use PIO in pico4ml to rp2040. 
+
 # demo1
 
 The hole was randomly generated:
@@ -37,16 +46,32 @@ https://youtu.be/yeAbvyMj_us
 
 The code for the code for 4-step drumer mode is in second half of [code.py](https://github.com/MaxMa6150/finalproject.demo/blob/main/code.py).
 
-# circuit diagram:
+# Design
+
+![636b7ca723a340c71f5bbcdf99d054b](https://user-images.githubusercontent.com/114200453/205553680-971f081e-1312-4f0b-a658-c0102464a50a.jpg)
+
+
+# System diagram:
+
 ![4952cf835d45d4de3d077f0bec4ef9a](https://user-images.githubusercontent.com/113209201/205527600-5bcd38d2-2480-4058-9eba-8b182687626f.jpg)
+
 # trouble shooting:
-1. the original code we used have the audioio module which didn't implement on qtpy2040, so we use audiopwmio instead and it has a lower resolution of audio out. In the next step, we will use a I2S drived audio AMP to drive the speaker. 
+
+1. the original code we used have the audioio module which didn't implement on qtpy2040, so we use audiopwmio instead and it has a lower resolution of audio out. In the next step, we will use a I2S drived audio AMP to drive the speaker. The new board MAX98357A has its own I2S module to play digital music file. The new design is shown below:
+
+![37ef09f08b88d881d7e9ab135455026](https://user-images.githubusercontent.com/114200453/205553995-0a5854b5-1a4b-4630-9eff-6a9f49ceb76e.jpg)
+
 
 # demo2
+
 The 4 steps sequencer:
+
 we use 4/4 time signature. 
+
 ![10fc630b4f2c8406bac2706b8bfcd4b](https://user-images.githubusercontent.com/113209201/205418094-1c88b3c4-5eb0-494a-baac-6569413cd4b1.jpg)
+
 The drums are assigned with different color, and each button on y axis represents a quarter of a period. You can produce different combination of drums by pressing down those drum button and create drum beats.
+
 ![bd59270a8f012a40c5f49dafbe0900b](https://user-images.githubusercontent.com/113209201/205418163-4cc14d23-2ab0-4c8f-b9df-3c60070a3c02.jpg)
 
 # In progress
