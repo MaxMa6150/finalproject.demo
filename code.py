@@ -1,6 +1,8 @@
 # SPDX-FileCopyrightText: 2022 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
 '''
+# Whack-a-mole mode
+
 import time
 import board
 import busio
@@ -139,6 +141,8 @@ while i<=50:
 # SPDX-FileCopyrightText: 2018 Limor Fried for Adafruit Industries
 #
 # SPDX-License-Identifier: MIT
+
+# Lauchpad drum mode
 
 import time
 import board
