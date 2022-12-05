@@ -96,7 +96,7 @@ we will show the credits on LCD screen which will read the data from RP2040 thro
 
 ![gswto-8gi1d](https://user-images.githubusercontent.com/113209201/205536461-e9dffa7d-6352-4bbb-873e-25df8729c929.gif)
 
-We will use the LCD display to record the score of Whack a Mole and display the patterns in the 4 steps drumer. 
+Later, we will use the LCD display to record the score of Whack a Mole and display the patterns in the 4 steps drumer. The connection between Pico4ML with LCD and QT PY 2040 is needed.
 
 ## Pico4ML and PY2040 connection:
 
