@@ -1,8 +1,8 @@
 # finalproject.demo
-the Whack a Mole:
+# the Whack a Mole:
 https://youtu.be/9epRLCVayiY
 
-code:
+# code:
       
       import time
       import board
@@ -100,12 +100,14 @@ code:
               r = random.randint(0,15)
               trellis.pixels[r] = CYAN
           time.sleep(0.02)
-
+# problems
 We use the  [neotrellis.simpletest.py](https://github.com/adafruit/Adafruit_CircuitPython_NeoTrellis/blob/main/examples/neotrellis_simpletest.py) 
 Since the cable is not available, we solder the cable with copper pins. 
 ![1551d4fc2dba9cf7454fcc54bca023e](https://user-images.githubusercontent.com/113209201/205519974-c958b217-2fb5-4a26-ac36-9b393b230299.jpg)
-The circuit looks like 
+# circuit diagram
+![4952cf835d45d4de3d077f0bec4ef9a](https://user-images.githubusercontent.com/113209201/205527555-4c39911b-fb37-4d23-89e1-d4f304852c9b.jpg)
 
+# demo1
 The hole was randomly generated:
 ![0e44561f16b1917239642e189afe396](https://user-images.githubusercontent.com/113209201/205417980-ccd6b806-9c1c-4ca9-b883-0b86a4d445ff.jpg)
 If you hit it in time, it will show no light, or you may hit wrong which shows red light, and the rat will escape after 0.5 second. 
@@ -115,9 +117,14 @@ hit right gain +2, hit wrong gain -1, hit none gain 0 credits.
 after you got below 0 score, game over!
 ![b1dd96557909350e81a502d35c14e64](https://user-images.githubusercontent.com/113209201/205418063-43d84f5d-1f88-475b-adac-9487aaf1e8e9.jpg)
 
-the 4-steps Drumer 
+# the 4-steps Drumer 
 https://youtu.be/yeAbvyMj_us
+# code
 
+# circuit diagram:
+![4952cf835d45d4de3d077f0bec4ef9a](https://user-images.githubusercontent.com/113209201/205527600-5bcd38d2-2480-4058-9eba-8b182687626f.jpg)
+
+# demo2
 The 4 steps sequencer:
 we use 4/4 time signature. 
 ![10fc630b4f2c8406bac2706b8bfcd4b](https://user-images.githubusercontent.com/113209201/205418094-1c88b3c4-5eb0-494a-baac-6569413cd4b1.jpg)
