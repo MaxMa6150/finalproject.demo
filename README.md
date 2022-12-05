@@ -1,9 +1,14 @@
 # finalproject.demo
+
 # the Whack a Mole:
+
 https://youtu.be/9epRLCVayiY
 
-# code:
-      
+# code
+
+The code for the code for whack-a-mole mode is in first half of code.py.
+
+```
       import time
       import board
       import busio
@@ -100,6 +105,8 @@ https://youtu.be/9epRLCVayiY
               r = random.randint(0,15)
               trellis.pixels[r] = CYAN
           time.sleep(0.02)
+```
+
 # troubleshooting
 We use the  [neotrellis.simpletest.py](https://github.com/adafruit/Adafruit_CircuitPython_NeoTrellis/blob/main/examples/neotrellis_simpletest.py) 
 Since the cable is not available, we solder the cable with copper pins. 
