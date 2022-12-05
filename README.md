@@ -297,3 +297,9 @@ we use 4/4 time signature.
 ![10fc630b4f2c8406bac2706b8bfcd4b](https://user-images.githubusercontent.com/113209201/205418094-1c88b3c4-5eb0-494a-baac-6569413cd4b1.jpg)
 The drums are assigned with different color, and each button on y axis represents a quarter of a period. You can produce different combination of drums by pressing down those drum button and create drum beats.
 ![bd59270a8f012a40c5f49dafbe0900b](https://user-images.githubusercontent.com/113209201/205418163-4cc14d23-2ab0-4c8f-b9df-3c60070a3c02.jpg)
+
+# In progress
+LCD on Pico4ML display:
+we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. 
+![gswto-8gi1d](https://user-images.githubusercontent.com/113209201/205536461-e9dffa7d-6352-4bbb-873e-25df8729c929.gif)
+We will use the LCD display to record the score of Whack a Mole and display the patterns in the 4 steps drumer. 
