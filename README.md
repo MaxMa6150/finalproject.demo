@@ -116,6 +116,7 @@ If you hit it in time, it will show no light, or you may hit wrong which shows r
 ![1fb9372dd3fc49cf10cbd6e4c82d438](https://user-images.githubusercontent.com/113209201/205418051-4dfb38aa-c2ff-424c-bb64-eb0b75730781.jpg)
 
 hit right gain +2, hit wrong gain -1, hit none gain 0 credits. 
+
 ![1591f55f30e0efb9959507cbaad0104](https://user-images.githubusercontent.com/113209201/205418071-c22ed010-0436-4fa4-b551-a5c84b25396e.png)
 
 after you got below 0 score, game over!
@@ -300,6 +301,9 @@ The drums are assigned with different color, and each button on y axis represent
 
 # In progress
 LCD on Pico4ML display:
+
 we will show the credits on LCD screen which will read the data from RP2040 through PIO in/out. 
+
 ![gswto-8gi1d](https://user-images.githubusercontent.com/113209201/205536461-e9dffa7d-6352-4bbb-873e-25df8729c929.gif)
+
 We will use the LCD display to record the score of Whack a Mole and display the patterns in the 4 steps drumer. 
